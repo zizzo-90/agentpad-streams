@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-03T00:00:00Z",
+  "note": "Manifest delle sorgenti di AgentPad. Modifica questo file sul ramo main e l'app si aggiorna da sola (bumpa 'version'). Aggiungi/attiva/disattiva una sorgente e compare senza reinstallare.",
+  "sources": [
+    {
+      "id": "enma",
+      "name": "Enma",
+      "kind": "api",
+      "enabled": true,
+      "priority": 1,
+      "label": "Enma",
+      "base": "https://api.enma.lol",
+      "site": "https://www.enma.lol",
+      "megaplay": "https://megaplay.buzz",
+      "dub": true,
+      "sub": true
+    },
+    {
+      "id": "hianime",
+      "name": "HiAnime/MegaPlay",
+      "kind": "api",
+      "enabled": true,
+      "priority": 2,
+      "label": "HiAnime",
+      "base": "https://hianime.ms",
+      "megaplay": "https://megaplay.buzz",
+      "dub": true
+    },
+    {
+      "id": "wco",
+      "name": "wco",
+      "kind": "web",
+      "enabled": true,
+      "priority": 3,
+      "label": "wco (browser)",
+      "hosts": [
+        "wcostream.org",
+        "wcofun.net"
+      ],
+      "dub": true
+    },
+    {
+      "id": "animeunity",
+      "name": "AnimeUnity",
+      "kind": "api",
+      "enabled": true,
+      "priority": 4,
+      "label": "AnimeUnity",
+      "sub": true,
+      "ita": true
+    },
+    {
+      "id": "jkanime",
+      "name": "JKanime",
+      "kind": "api",
+      "enabled": true,
+      "priority": 5,
+      "label": "JKanime",
+      "ita": true
+    }
+  ]
+}
