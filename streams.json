@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-08-03T00:00:00Z",
-  "note": "Manifest delle sorgenti di AgentPad. Modifica questo file sul ramo main e l'app si aggiorna da sola (bumpa 'version'). Aggiungi/attiva/disattiva una sorgente e compare senza reinstallare.",
+  "note": "Manifest delle sorgenti di AgentPad. Modifica questo file sul ramo main e l'app si aggiorna da sola (bumpa 'version'). Aggiungi/attiva/disattiva una sorgente e compare senza reinstallare. Solo sorgenti riproducibili nativamente (nessun browser).",
   "sources": [
     {
       "id": "enma",
@@ -25,19 +25,6 @@
       "label": "HiAnime",
       "base": "https://hianime.ms",
       "megaplay": "https://megaplay.buzz",
-      "dub": true
-    },
-    {
-      "id": "wco",
-      "name": "wco",
-      "kind": "web",
-      "enabled": true,
-      "priority": 3,
-      "label": "wco (browser)",
-      "hosts": [
-        "wcostream.org",
-        "wcofun.net"
-      ],
       "dub": true
     },
     {
