@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-08-04T00:00:00Z",
+  "version": 4,
+  "updatedAt": "2026-08-04T12:00:00Z",
   "note": "Manifest delle sorgenti di AgentPad. Modifica questo file sul ramo main e l'app si aggiorna da sola (bumpa 'version'). Aggiungi/attiva/disattiva una sorgente e compare senza reinstallare. Solo sorgenti riproducibili nativamente (nessun browser). La sezione 'discovery' alimenta l'aggregatore: metti qui feed RSS e siti di directory.",
   "sources": [
     {
@@ -52,6 +52,7 @@
     "directorySites": [],
     "redditQueries": ["anime mirror", "hianime", "anime streaming sites", "wco mirror", "anime watch free"],
     "hackerNewsQueries": ["anime streaming", "anime mirror", "hianime", "watch anime"],
-    "productHuntToken": ""
+    "productHuntToken": "",
+    "customHosts": []
   }
 }
